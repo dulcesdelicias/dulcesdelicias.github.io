@@ -1,0 +1,111 @@
+/* Estilo para la cabecera */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+/* Estilo para el logo */
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #333;
+}
+
+/* Estilo para el menú de navegación */
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #ff5733;
+}
+
+/* Estilo para la sección de imagen de hero */
+.hero-image {
+  background-image: url(panaderia.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.hero-text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-text h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+.hero-text p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.cta-btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+.cta-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilo para la sección de menú */
+.menu {
+  padding: 50px 0;
+}
+.menu h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #333;
+}
+
+/* Estilo para la sección de horarios */
+.hours-section .hours {
+  display: inline-block;
+  width: 30%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  vertical-align: top;
+  text-align: center;
+}
+
+ /* Estilo para el footer */
+ footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  }
